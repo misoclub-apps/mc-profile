@@ -351,8 +351,6 @@ img {
 }
 
 .post__actions .like.is-liked {
-  color: #f0577a;
-  fill: currentColor;
   animation: heart 0.45s ease;
 }
 
@@ -612,12 +610,18 @@ img {
 }
 
 .post__actions .like svg {
-  fill: inherit;
-  stroke: currentColor;
+  display: block;
+  overflow: visible;
+}
+
+.post__actions .like path {
+  fill: transparent;
+  stroke: #9b9089;
   stroke-width: 2;
   stroke-linejoin: round;
 }
 
-.post__actions .like {
-  fill: none;
+.post__actions .like.is-liked path {
+  fill: #f0577a;
+  stroke: #f0577a;
 }
