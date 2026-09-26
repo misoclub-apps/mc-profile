@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#0b0a09" />
+    <title>ぷろ (misoclub) | Web名刺</title>
+    <meta name="description" content="ゲームエンジニア、アプリ開発者 ぷろ（misoclub）のWeb名刺です。" />
+    <link rel="icon" href="./assets/avatar.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <!-- ヘッダー -->
+      <header class="cover">
+        <img class="cover__img" src="./assets/header.jpg" alt="" />
+      </header>
+
+      <!-- プロフィール -->
+      <section class="profile">
+        <div class="profile__top">
+          <img class="avatar" src="./assets/avatar.png" alt="misoclub のアイコン" width="96" height="96" />
+          <a class="follow" href="https://x.com/misoclub_pr" target="_blank" rel="noopener">フォロー</a>
+        </div>
+
+        <h1 class="name">
+          ぷろ
+          <svg class="badge" viewBox="0 0 24 24" aria-label="認証済み"><path d="M12 1.5l2.6 2 3.3-.3.9 3.2 2.8 1.8-1.2 3.1 1.2 3.1-2.8 1.8-.9 3.2-3.3-.3-2.6 2-2.6-2-3.3.3-.9-3.2-2.8-1.8 1.2-3.1-1.2-3.1 2.8-1.8.9-3.2 3.3.3z"/><path class="badge__check" d="M7.5 12.2l3 3 6-6.2" /></svg>
+        </h1>
+        <p class="handle">@misoclub</p>
+        <p class="role">ゲームエンジニア、アプリ開発者</p>
+
+        <p class="bio">
+          毎日に、ちょうどいいアプリをつくってる。<br />
+          本業はスマホゲーム開発（Unity / C# / C++）。趣味で個人開発してて、アプリは6本リリース済み。最近は AI でバイブコーディングしてます。よかったらDLしてね📱
+        </p>
+
+        <ul class="meta">
+          <li>🎮 Unity / C# / C++</li>
+          <li>🤖 AI・バイブコーディング</li>
+          <li>🔗 <a href="https://misoclub.pro/" target="_blank" rel="noopener">misoclub.pro</a></li>
+        </ul>
+
+        <ul class="stats">
+          <li><strong data-count="6">6</strong> アプリ</li>
+          <li><strong data-count="16">16</strong> LINEスタンプ</li>
+          <li><strong>iOS・Android</strong></li>
+        </ul>
+      </section>
+
+      <!-- タブ -->
+      <nav class="tabs" aria-label="セクション">
+        <a class="tabs__item is-active" href="#timeline">ポスト</a>
+        <a class="tabs__item" href="#links">リンク</a>
+      </nav>
+
+      <!-- タイムライン -->
+      <section class="timeline" id="timeline" aria-label="タイムライン">
+        <!-- 固定: MIO -->
+        <article class="post reveal">
+          <p class="post__pin">📌 固定</p>
+          <div class="post__body">
+            <img class="post__avatar" src="./assets/app-mio-icon.png" alt="" />
+            <div class="post__main">
+              <p class="post__head"><b>MIO</b> <span>@misoclub · iOS / Android</span></p>
+              <p class="post__text">時間割・課題・出欠・バイト・予定をひとつに。友達との時間割共有もできる、学生生活の相棒アプリつくりました🎒</p>
+              <a class="post__media" href="https://misoclub.pro/apps/mio/" target="_blank" rel="noopener">
+                <img src="./assets/stage-mio.jpg" alt="MIO のアプリ画面" loading="lazy" />
+                <span class="post__cta">MIOを見る ↗</span>
+              </a>
+              <ul class="post__actions" aria-hidden="true"><li>💬</li><li>🔁</li><li class="like">♡</li><li>↗</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- 固定: きょうの体重 -->
+        <article class="post reveal">
+          <p class="post__pin">📌 固定</p>
+          <div class="post__body">
+            <img class="post__avatar" src="./assets/app-taiju-log-icon.png" alt="" />
+            <div class="post__main">
+              <p class="post__head"><b>きょうの体重</b> <span>@misoclub · iOS / Android</span></p>
+              <p class="post__text">毎日の体重を3秒で記録。体脂肪・BMI・グラフ・カレンダーで、ダイエットがゆるっと続く⚖️</p>
+              <a class="post__media" href="https://misoclub.pro/apps/taiju-log/" target="_blank" rel="noopener">
+                <img src="./assets/stage-weight.jpg" alt="きょうの体重 のアプリ画面" loading="lazy" />
+                <span class="post__cta">きょうの体重を見る ↗</span>
+              </a>
+              <ul class="post__actions" aria-hidden="true"><li>💬</li><li>🔁</li><li class="like">♡</li><li>↗</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- 固定: 秒速日記 -->
+        <article class="post reveal">
+          <p class="post__pin">📌 固定</p>
+          <div class="post__body">
+            <img class="post__avatar" src="./assets/app-diary-icon.png" alt="" />
+            <div class="post__main">
+              <p class="post__head"><b>秒速日記</b> <span>@misoclub · iOS / Android</span></p>
+              <p class="post__text">開いて、打って、送るだけ。思いついた瞬間に書ける日記アプリ。1日に何回でも書けるよ✍️</p>
+              <a class="post__media post__media--tall" href="https://misoclub.pro/apps/diary/" target="_blank" rel="noopener">
+                <img src="./assets/stage-diary.jpg" alt="秒速日記 のアプリ画面" loading="lazy" />
+                <span class="post__cta">秒速日記を見る ↗</span>
+              </a>
+              <ul class="post__actions" aria-hidden="true"><li>💬</li><li>🔁</li><li class="like">♡</li><li>↗</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- ほかのアプリ -->
+        <article class="post reveal">
+          <div class="post__body">
+            <img class="post__avatar" src="./assets/avatar.png" alt="" />
+            <div class="post__main">
+              <p class="post__head"><b>ぷろ</b> <span>@misoclub</span></p>
+              <p class="post__text">ほかにもこんなアプリつくってます👇</p>
+              <div class="apps">
+                <a class="app-card" href="https://misoclub.pro/apps/kinenka/" target="_blank" rel="noopener">
+                  <img src="./assets/stage-memory.jpg" alt="" loading="lazy" />
+                  <span class="app-card__info">
+                    <img src="./assets/app-kinenka-icon.png" alt="" />
+                    <span><b>キネンカ</b><small>記念日までをカウントダウン</small></span>
+                  </span>
+                </a>
+                <a class="app-card" href="https://misoclub.pro/apps/yorunabi/" target="_blank" rel="noopener">
+                  <img src="./assets/stage-night.jpg" alt="" loading="lazy" />
+                  <span class="app-card__info">
+                    <img src="./assets/app-yorunabi-icon.png" alt="" />
+                    <span><b>夜会計ナビ</b><small>今のお会計をリアルタイムに</small></span>
+                  </span>
+                </a>
+                <a class="app-card" href="https://misoclub.pro/apps/nihon-tabinikki/" target="_blank" rel="noopener">
+                  <img src="./assets/stage-travel.jpg" alt="" loading="lazy" />
+                  <span class="app-card__info">
+                    <img src="./assets/app-nihon-tabinikki-icon.png" alt="" />
+                    <span><b>日本旅日記</b><small>日本の旅を記録しよう</small></span>
+                  </span>
+                </a>
+              </div>
+              <ul class="post__actions" aria-hidden="true"><li>💬</li><li>🔁</li><li class="like">♡</li><li>↗</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- LINEスタンプ -->
+        <article class="post reveal">
+          <div class="post__body">
+            <img class="post__avatar" src="./assets/avatar.png" alt="" />
+            <div class="post__main">
+              <p class="post__head"><b>ぷろ</b> <span>@misoclub</span></p>
+              <p class="post__text">LINEスタンプも16種類つくってます🎨 使ってくれたらうれしい！</p>
+              <a class="stickers" href="https://store.line.me/stickershop/author/5284054/ja" target="_blank" rel="noopener">
+                <span class="stickers__grid">
+                  <img src="./assets/sticker-30316234.png" alt="ぷろスタンプ vol.1" loading="lazy" />
+                  <img src="./assets/sticker-34249932.png" alt="ぷろスタンプ vol.2" loading="lazy" />
+                  <img src="./assets/sticker-30316217.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30340379.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30364508.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30371473.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30389774.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30395086.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30555430.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30576888.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30785446.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30816167.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30839967.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30875118.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30910828.png" alt="" loading="lazy" />
+                  <img src="./assets/sticker-30910912.png" alt="" loading="lazy" />
+                </span>
+                <span class="post__cta">LINE STOREで見る ↗</span>
+              </a>
+              <ul class="post__actions" aria-hidden="true"><li>💬</li><li>🔁</li><li class="like">♡</li><li>↗</li></ul>
+            </div>
+          </div>
+        </article>
+
+        <!-- YouTube -->
+        <article class="post reveal">
+          <div class="post__body">
+            <img class="post__avatar" src="./assets/yt-channel.jpg" alt="" />
+            <div class="post__main">
+              <p class="post__head"><b>フリーBGM工房</b> <span>@freebgmfactory</span></p>
+              <p class="post__text">YouTubeでフリーBGMも投稿してます🎵 無料DLできるので作業のおともにどうぞ。</p>
+              <div class="videos">
+                <a class="video" href="https://www.youtube.com/watch?v=UOMe3NK99bw" target="_blank" rel="noopener" aria-label="2本目の鍵">
+                  <img src="./assets/yt-UOMe3NK99bw.jpg" alt="" loading="lazy" />
+                </a>
+                <a class="video" href="https://www.youtube.com/watch?v=W4VjChQyio0" target="_blank" rel="noopener" aria-label="駅前で拳をほどく">
+                  <img src="./assets/yt-W4VjChQyio0.jpg" alt="" loading="lazy" />
+                </a>
+                <a class="video" href="https://www.youtube.com/watch?v=8STRlQEmpHo" target="_blank" rel="noopener" aria-label="3段スキップ">
+                  <img src="./assets/yt-8STRlQEmpHo.jpg" alt="" loading="lazy" />
+                </a>
+                <a class="video" href="https://www.youtube.com/watch?v=uiNiEnXJay8" target="_blank" rel="noopener" aria-label="ひとまず休憩">
+                  <img src="./assets/yt-uiNiEnXJay8.jpg" alt="" loading="lazy" />
+                </a>
+              </div>
+              <a class="yt" href="https://www.youtube.com/@freebgmfactory" target="_blank" rel="noopener">
+                <img class="yt__icon" src="./assets/yt-channel.jpg" alt="" />
+                <span><b>フリーBGM工房</b><small>@freebgmfactory · チャンネルを見る ↗</small></span>
+              </a>
+              <ul class="post__actions" aria-hidden="true"><li>💬</li><li>🔁</li><li class="like">♡</li><li>↗</li></ul>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <!-- リンク -->
+      <section class="links" id="links" aria-label="リンク">
+        <h2 class="links__title">リンク</h2>
+        <a class="link reveal" href="https://x.com/misoclub_pr" target="_blank" rel="noopener"><span class="link__icon">𝕏</span><span>X<small>@misoclub_pr</small></span></a>
+        <a class="link reveal" href="https://misoclub.pro/" target="_blank" rel="noopener"><span class="link__icon">🌐</span><span>misoclub.pro<small>アプリのポータルサイト</small></span></a>
+        <a class="link reveal" href="https://note.com/misoclub" target="_blank" rel="noopener"><span class="link__icon">📝</span><span>note<small>@misoclub</small></span></a>
+        <a class="link reveal" href="https://www.youtube.com/@freebgmfactory" target="_blank" rel="noopener"><span class="link__icon"><img src="./assets/yt-channel.jpg" alt="" /></span><span>YouTube<small>フリーBGM工房 @freebgmfactory</small></span></a>
+      </section>
+
+      <footer class="footer">© misoclub</footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
