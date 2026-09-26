@@ -25,8 +25,7 @@ document.querySelectorAll(".stickers__grid img").forEach((img, i) => {
 // いいね（見た目だけ）
 document.querySelectorAll(".post__actions .like").forEach((like) => {
   like.addEventListener("click", () => {
-    const liked = like.classList.toggle("is-liked");
-    like.textContent = liked ? "♥" : "♡";
+    like.classList.toggle("is-liked");
   });
 });
 
