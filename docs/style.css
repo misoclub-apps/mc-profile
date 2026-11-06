@@ -308,10 +308,6 @@ img {
   aspect-ratio: 1 / 1;
 }
 
-.post__media--tall {
-  aspect-ratio: 4 / 5;
-}
-
 .post__media img {
   width: 100%;
   height: 100%;
